@@ -1,13 +1,13 @@
 ---
 layout: post
-permalink:
+# permalink:
 published: true
-date:
-categories:
-tags:
+# date:
+# categories:
+# tags:
 title: Blogging Like a Hacker
-myvar1:
-myvar2:
+# myvar1:
+# myvar2:
 ---
 
 #Historical Perspective and Relevant Work
