@@ -10,6 +10,8 @@ avatar: "/assets/my-photo-2017.jpg"
 timezone: "America/New_York"
 # Encoding
 encoding: "utf-8"
+# Highlighter for Liquid code segments with syntax highlighting -- we want Python:
+highlighter: pygments
 
 # Those settings willl apply to all pages and posts by default (unless overridden) on my site
 defaults:
