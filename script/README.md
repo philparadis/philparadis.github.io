@@ -1,0 +1,1 @@
+This is where automatically generated bash scripts are stored.
