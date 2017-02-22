@@ -1,4 +1,16 @@
-# Historical Perspective and Relevant Work
+---
+layout: post
+permalink:
+published: true
+date:
+categories:
+tags:
+title: Blogging Like a Hacker
+myvar1:
+myvar2:
+---
+
+#Historical Perspective and Relevant Work
 
 ###PQuote:
 > Generative adversarial networks (Goodfellow et al., 2014)
