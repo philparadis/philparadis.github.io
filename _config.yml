@@ -1,1 +1,7 @@
 theme: jekyll-theme-slate
+# Name of your site (displayed in the header)
+name: Philippe Paradis
+# Short bio or description (displayed in the header)
+description: Personal web page of Philippe Paradis
+# URL of your avatar or profile pic
+avatar: /assets/my-photo-2017.jpg
