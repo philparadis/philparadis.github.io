@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+# markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
@@ -77,11 +77,11 @@ unpublished: false
 # gems:      []
 
 # # Conversion
-# markdown:    kramdown
-# highlighter: rouge
-# lsi:         false
-# excerpt_separator: "\n\n"
-# incremental: false
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
 
 # # Serving
 # detach:  false
