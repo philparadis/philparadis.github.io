@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
@@ -7,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+# title:            Hyde
+# tagline:          'A Jekyll theme'
+# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              https://philparadis.github.io
 baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# author:
+#   name:           'Mark Otto'
+#   url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -23,10 +22,10 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
-=======
+  repo:           https://github.com/philparadis/philparadis.github.io.git
+
 # Theme
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-hyde
 # Name of your site (displayed in the header)
 name: "Philippe Paradis"
 # Short bio or description (displayed in the header)
@@ -50,28 +49,28 @@ defaults:
 
 # # Where things are
 # source:       .
-# destination:  ./_site
+destination:  ./_site
 # plugins_dir:  _plugins
-# layouts_dir:  _layouts
+layouts_dir:  _layouts
 # data_dir:     _data
-# includes_dir: _includes
-# collections:
-#   posts:
-#     output:   true
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
 
 # # Handling Reading
-# safe:         false
-# include:      [".htaccess"]
-# exclude:      ["node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-# keep_files:   [".git", ".svn"]
+safe:         false
+include:      [".htaccess"]
+exclude:      ["node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:   [".git", ".svn"]
 # encoding:     "utf-8"
-# markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # # Filtering Content
-# show_drafts: null
-# limit_posts: 0
-# future:      false
-# unpublished: false
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
 
 # # Plugins
 # whitelist: []
@@ -92,16 +91,16 @@ defaults:
 # show_dir_listing: false
 
 # # Outputting
-# permalink:     date
-# paginate_path: /page:num
+permalink:     date
+paginate_path: /page:num
 # timezone:      null
 
-# quiet:    false
-# verbose:  false
+quiet:    false
+verbose:  false
 # defaults: []
 
-# liquid:
-#   error_mode: warn
+liquid:
+  error_mode: warn
 
 # # Markdown Processors
 # rdiscount:
@@ -118,4 +117,4 @@ defaults:
 #   input:          GFM
 #   hard_wrap:      false
 #   footnote_nr:    1
->>>>>>> 2aed3e22e8942502c2901464184eb8779ee66c2a
+
