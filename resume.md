@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Resume
 ---
 
 My resume will go here one day :)
