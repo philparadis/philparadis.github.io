@@ -3,6 +3,11 @@ layout: default
 title: Home
 ---
 
+{% for post in paginator.posts %}
+	{% include post.html %}
+{% endfor %}
+
+{% comment %}
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -35,3 +40,5 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+{% endcomment %}
