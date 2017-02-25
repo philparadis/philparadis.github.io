@@ -10,7 +10,14 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if !(node.url and node.url != "" and node.url != nil) %} active{% endif %}" href="/">Home</a>
+      {% if node.url is defined and node.url  %}
+        <h1>{{ pageTitle }}</h1>
+      {% endif %}
+
+      {% if node.url  is defined and node.url  is not empty %}
+         <h1>{{ pageTitle }}</h1>
+      {% endif %}
+      <a class="sidebar-nav-item{% if node.url == undefined or node.url == "" or node.url == nil) %} active{% endif %}" href="/">Home</a>
       
       <!--
       <a class="sidebar-nav-item{% if page.url == site.github.url %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
