@@ -1,3 +1,10 @@
+---
+layout: post
+title: Early-phases ideas and experiments
+published: true
+permalink: /:year/:month/:day/:title/
+---
+
 # Initial Ideas: Part I
 
 ## The two basic tools:

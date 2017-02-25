@@ -5,14 +5,14 @@ published: true
 # date:
 # categories:
 # tags:
-title: Blogging Like a Hacker
+title: Historical Background and Literature Review
 # myvar1:
 # myvar2:
 ---
 
-#Historical Perspective and Relevant Work
+# Historical Perspective and Relevant Work
 
-###PQuote:
+## PQuote:
 > Generative adversarial networks (Goodfellow et al., 2014)
 > have also benefited from convolutional decoder networks,
 > for the generator network module. Denton et al. (2015)
