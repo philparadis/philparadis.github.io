@@ -1,13 +1,10 @@
 ---
 layout: post
-# permalink:
-published: true
-# date:
-# categories:
-# tags:
 title: Historical Background and Literature Review
-# myvar1:
-# myvar2:
+published: true
+permalink: /:year/:month/:day/:title/
+author: Philippe Paradis
+categories: IFT6266-project
 ---
 
 # Historical Perspective and Relevant Work
