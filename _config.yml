@@ -13,8 +13,8 @@ url:              https://philparadis.github.io
 baseurl:          /
 
 # author:
-#   name:           'Mark Otto'
-#   url:            https://twitter.com/mdo
+   name:           'Philippe Paradis'
+   url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -27,9 +27,8 @@ github:
 # Theme
 # theme: jekyll-theme-hyde
 # Name of your site (displayed in the header)
-name: "Philippe Paradis"
 # Short bio or description (displayed in the header)
-description: "Personal web page of Philippe Paradis"
+description: "Personal web page of Philippe Paradis and blog for the IFT6266-H2017 project!"
 # URL of your avatar or profile pic
 avatar: "/assets/my-photo-2017.jpg"
 # Time zone
