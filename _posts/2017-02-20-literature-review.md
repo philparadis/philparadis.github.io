@@ -9,7 +9,8 @@ categories: IFT6266-project
 
 # Historical Perspective and Relevant Work
 
-## PQuote:
+Here is a relevant quote that sums up the state of affair as of 17 May 2016, from Reed et al's paper ''Generative Adversarial Text to Image Synthesis'':
+
 > Generative adversarial networks (Goodfellow et al., 2014)
 > have also benefited from convolutional decoder networks,
 > for the generator network module. Denton et al. (2015)
@@ -44,7 +45,6 @@ categories: IFT6266-project
 > using the MS COCO (Lin et al., 2014) and other captioned
 > image datasets. Xu et al. (2015) incorporated a recurrent
 > visual attention mechanism for improved results.
->> *Generative Adversarial Text to Image Synthesis*
 
 # Background
 
@@ -59,9 +59,13 @@ categories: IFT6266-project
 Quick Summary of Relevant Literature
 ====================================
 
+The following papers are not listed with respect to relevance, but in chronilogical order, to allow for a better perspective on the development of those techniques. However, the relevance (with respect to the IFT6266 project) is indicated in each entry.
+
+TODO: Add date for each entry and re-order.
+
 1. Generative Adversarial Text to Image Synthesis
 Significance: First model to generate images ''from text captions'' only for any class.
-Relevance:
+Relevance: Very high
 Summary: Use a stacked GAN model.
 github:	 https://github.com/reedscot/icml2016
 arXiv: 	 https://arxiv.org/abs/1605.05396
@@ -75,25 +79,35 @@ arXiv:
 
 3. StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks
 Significance: 
-Relevance: 
+Relevance: Very high
 Summary: 
 github: https://github.com/hanzhanggit/StackGAN
 arXiv: https://arxiv.org/abs/1612.03242
 
 4. Conditional generative adversarial nets
 Significance: 
-Relevance: 
+Relevance: High
 Summary: 
 github (not official): https://github.com/zhangqianhui/Conditional-Gans
 arXiv: https://arxiv.org/abs/1411.1784
 
 5. Generating images from captions with attention
-Significance: 
-Relevance: 
-Summary: 
-github (original): https://github.com/emansim/text2image
-arXiv: https://arxiv.org/abs/1511.02793
-Official github:
+  * Date:
+  * Authors:
+  * Significance: 
+  * Relevance: 
+  * Summary: 
+  * github (official): https://github.com/emansim/text2image
+  * arXiv: https://arxiv.org/abs/1511.02793
+
+6. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+  * Date:
+  * Authors:
+  * Significance: Very high
+  * Relevance: 
+  * Summary: 
+  * github (official): https://github.com/Newmu/dcgan_code
+  * arXiv: https://arxiv.org/abs/1511.06434
 
 Resources
 =========
