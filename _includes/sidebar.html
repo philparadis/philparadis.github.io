@@ -7,7 +7,6 @@
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
-      <p>page.url = {{ page.url }}<br/>node.url = {{ node.url }}<br/></p>
     </div>
 
     <nav class="sidebar-nav">
@@ -32,8 +31,10 @@
 
       <a class="sidebar-nav-item" href="{{ site.github.owner_url }}/ift6266-h2017-project">IFT6266 GitHub repository</a>
       <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub profile</a>
-<!--      <a class="sidebar-nav-item" href="{{ site.github.repository_url }}">GitHub repository</a> !-->
+      <!--      <a class="sidebar-nav-item" href="{{ site.github.repository_url }}">GitHub repository</a> !-->
+      {% comment %}
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      {% endcomment %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
