@@ -83,6 +83,10 @@ lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # # Serving
 # detach:  false
 # port:    4000
