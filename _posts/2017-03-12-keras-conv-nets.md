@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Keras to implement convolutional nets
+date: Sun Mar 12 13:12:20 EDT 2017
 published: true
 permalink: /:year/:month/:day/:title/
 author: Phil
