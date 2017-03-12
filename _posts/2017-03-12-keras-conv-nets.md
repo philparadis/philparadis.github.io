@@ -15,6 +15,23 @@ See [yesterday's blog post](/2017/03/11/setting-up-keras/) for installing Keras 
 
 We will test our setup with the code from this tutorial: [Keras Tutorial: The Ultimate Beginner’s Guide to Deep Learning in Python](https://elitedatascience.com/keras-tutorial-deep-learning-in-python "Keras Tutorial"). We reproduce the code as one block below for convenience:
 
+(% highlight_python linenos %)
+# 3. Import libraries and modules
+import numpy as np
+np.random.seed(123)  # for reproducibility
+
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation, Flatten
+from keras.layers import Convolution2D, MaxPooling2D
+from keras.utils import np_utils
+from keras.datasets import mnist
+
+from keras import backend
+
+backend.set_image_dim_ordering('th')
+(% endhighlight %)
+
+
 ```python
 # 3. Import libraries and modules
 import numpy as np
