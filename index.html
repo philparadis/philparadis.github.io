@@ -5,6 +5,11 @@ title: Home
 
 Welcome to the personal web site of Philippe Paradis, first year Ph.D. student at MILA within Université de Montréal (UdeM)! Please visit my <a href="{{ site.url }}/blog.html">blog for the IFT6266 project</a>!
 
+{% for post in paginator.posts %}
+	{% include post.html %}
+{% endfor %}
+
+
 {% comment %}
 <div class="posts">
   {% for post in paginator.posts %}
