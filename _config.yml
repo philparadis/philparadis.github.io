@@ -83,9 +83,35 @@ lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
 
+	     
+
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
 kramdown:
-  input: GFM
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  hard_wrap:      false
+  footnote_nr:    1
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
   syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    python_class: 'highlight'
+    bash_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 
 # # Serving
 # detach:  false
@@ -112,13 +138,4 @@ liquid:
 
 # redcarpet:
 #   extensions: []
-
-# kramdown:
-#   auto_ids:       true
-#   entity_output:  as_char
-#   toc_levels:     1..6
-#   smart_quotes:   lsquo,rsquo,ldquo,rdquo
-#   input:          GFM
-#   hard_wrap:      false
-#   footnote_nr:    1
 
