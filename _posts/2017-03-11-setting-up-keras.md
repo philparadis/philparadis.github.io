@@ -22,11 +22,33 @@ Note that `-n keras` simply defines the name of the virtual environment as `kera
 
 ## Step 2: Install Keras and TensorFlow
 It will be possible to use the command `conda install keras` to install Keras and all dependencies, including TensorFlow and Theano. However, we will not do this, because conda will install the CPU versions of the backends only. Instead, we will activate our conda environment and from within use pip to install everything. See below:
+
 ~~~~
 > source activate keras
 > export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl
 > pip install --upgrade $TF_BINARY_URL
 > pip install keras
 ~~~~
+
+~~~~
+source activate keras
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl
+pip install --upgrade $TF_BINARY_URL
+pip install keras
+~~~~
+
+~~~~bash
+source activate keras
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl
+pip install --upgrade $TF_BINARY_URL
+pip install keras
+~~~~
+
+```bash
+source activate keras
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl
+pip install --upgrade $TF_BINARY_URL
+pip install keras
+```
 
 We did not install Theano yet, but it is easy to do and we shall do so if and when necessary.
