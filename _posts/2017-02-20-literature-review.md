@@ -3,7 +3,7 @@ layout: post
 title: Historical Background and Literature Review
 published: true
 permalink: /:year/:month/:day/:title/
-author: Philippe Paradis
+author: Phil
 categories: IFT6266-project
 ---
 

@@ -11,8 +11,8 @@ permalink:        pretty
 # description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 
 #
-name:             'Philippe Paradis'
-author:           'Philippe Paradi'
+name:             'Phil'
+author:           'Phil'
 url:              https://philparadis.github.io
 baseurl:          /
 
@@ -29,7 +29,7 @@ github:
 # theme: jekyll-theme-hyde
 # Name of your site (displayed in the header)
 # Short bio or description (displayed in the header)
-description: "Personal web page of Philippe Paradis and blog for the IFT6266-H2017 project!"
+description: "Blog and project page for IFT6266-H2017"
 # URL of your avatar or profile pic
 avatar: "/assets/my-photo-2017.jpg"
 # Time zone

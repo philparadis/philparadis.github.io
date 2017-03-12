@@ -3,7 +3,7 @@ layout: post
 title: Intro to using GPUs at MILA
 published: true
 permalink: /:year/:month/:day/:title/
-author: Philippe Paradis
+author: Phil
 categories: IFT6266-project
 ---
 
