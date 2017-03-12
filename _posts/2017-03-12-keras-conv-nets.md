@@ -9,7 +9,7 @@ categories: IFT6266-project
 
 # Using Keras to implement convolutional nets
 
-See [yesterday's blog post](/2017/03/11/Using-Keras-to-implement-convolutional-nets/) for installing Keras and TensorFlow. Today, we will test our setup on a simple example: a Keras convnet for classifying MNIST handwritten digits. We expect at least 99% accuracy. Then, we will tweak the code a bit to understand better Keras.
+See [yesterday's blog post](/2017/03/11/setting-up-keras/) for installing Keras and TensorFlow. Today, we will test our setup on a simple example: a Keras convnet for classifying MNIST handwritten digits. We expect at least 99% accuracy. Then, we will tweak the code a bit to understand better Keras.
 
 ## First test: just copy/paste from a good tutorial
 
