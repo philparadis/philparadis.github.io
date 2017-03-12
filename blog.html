@@ -5,6 +5,11 @@ title: Blog (IFT6266 project)
 
 Most recent posts:
 
+{% for post in site.posts %}
+	{% include post.html %}
+{% endfor %}
+
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
