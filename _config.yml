@@ -6,9 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-# title:            Hyde
-# tagline:          'A Jekyll theme'
-# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Blog and project for Deep Learning class IFT6266-H2017
+tagline:          'Attempt at generating the missing central square from an image based on captions describing the image and the visible outside frame'
 
 #
 name:             'Phil'
@@ -82,8 +81,6 @@ highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
-
-	     
 
 
 # More › http://kramdown.gettalong.org/quickref.html
