@@ -5,9 +5,13 @@ highlighter:      pygments
 # Permalinks
 permalink:        pretty
 
-# Setup
-title:            Blog and project for Deep Learning class IFT6266-H2017
-tagline:          'Attempt at generating the missing central square from an image based on captions describing the image and the visible outside frame'
+# Theme
+theme: jekyll-theme-hyde
+# Name of your site (displayed in the header)
+title:       "Phil's blog"
+# Short bio or description (displayed in the header)
+tagline:     "Deep Learning project (IFT6266-H2017)"
+description: "Attempt at generating the missing central square from an image based on captions describing the image and the visible outside frame"
 
 #
 name:             'Phil'
@@ -24,11 +28,6 @@ version:          2.1.0
 github:
   repo:           https://github.com/philparadis/philparadis.github.io.git
 
-# Theme
-# theme: jekyll-theme-hyde
-# Name of your site (displayed in the header)
-# Short bio or description (displayed in the header)
-description: "Blog and project page for IFT6266-H2017"
 # URL of your avatar or profile pic
 avatar: "/assets/my-photo-2017.jpg"
 # Time zone
