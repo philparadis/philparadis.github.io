@@ -105,7 +105,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false # No line numbers anywhere!
       start_line: 1
 
 
