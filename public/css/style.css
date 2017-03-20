@@ -485,3 +485,10 @@ a, span, .callout, .project img, input.submit {
   display: table;
   clear: both;
 }
+
+#icons {
+    float: left;
+    width: 128px;
+    height: 128px;
+    margin: 5px;
+}
