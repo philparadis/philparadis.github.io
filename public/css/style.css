@@ -486,8 +486,8 @@ a, span, .callout, .project img, input.submit {
   clear: both;
 }
 
-#icons {
-    float: left;
+.icons {
+    display: inline-block;
     width: 128px;
     height: 128px;
     margin: 5px;
