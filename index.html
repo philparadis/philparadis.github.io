@@ -3,15 +3,24 @@ layout: default
 title: Home
 ---
 
-<h2>
-  Random thoughts:
-</h2>
 <p>
+  <h1>
+    Latest results:
+    {% include results.html %}
+  </h1>
+</p>
+
+<p>
+  <h2>
+    Random thoughts:
+  </h2>
   <span>
     The project's task can also be called 'image inpainting'.
   </span>
 </p>
-  My most recent posts:
+
+<h2>
+My most recent posts:
 </h2>
 
 {% for post in paginator.posts %}
