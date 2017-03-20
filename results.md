@@ -1,0 +1,15 @@
+---
+layout: page
+title: Current results
+---
+
+This page includes my current results:
+
+* Experiment 2:
+
+The first column represents the target inner 32x32 image, wheras the second column represents the generated inner 32x32 image using the outer frame as input.
+
+<img src="assets/Y_test_0.jpg" alt="Target inner image">
+<img src="assets/X_test_predict_0.jpg" alt="Generated inner image">
+<br/>
+
